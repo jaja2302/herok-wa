@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-heroku-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp heroku bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoAcosta/whatsapp-heroku-bot.git"
+  },
+  "keywords": [
+    "WhatsApp",
+    "bot",
+    "Heroku"
+  ],
+  "author": "Nicolás Acosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicoAcosta/whatsapp-heroku-bot/issues"
+  },
+  "homepage": "https://github.com/NicoAcosta/whatsapp-heroku-bot#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "venom-bot": "^5.0.21"
+  }
+}
